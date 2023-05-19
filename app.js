@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3333
 const app = express()
 app.use(
     cors({
-        origin: "https://felina-multisig-wallet-ui.vercel.app/",
+        origin: "*",
         credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE"],
         optionSuccessStatus: 200,
