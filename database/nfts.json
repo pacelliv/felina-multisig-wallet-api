@@ -1,28 +1,3 @@
 {
-    "nfts": [
-        {
-            "nftAddress": "0xe0018d0EC958Af0f2948319D5eBe6145aCbEd681",
-            "collectionName": "Dogie NFT Collection",
-            "tokenId": "0",
-            "tokenSymbol": "DOG",
-            "tokenUri": {
-                "name": "pug",
-                "description": "An adorable pug pup!",
-                "image": "https://ipfs.io/ipfs/QmSsYRx3LpDAb1GZQm7zZ1AuHZjfbPkD6J7s9r41xu1mf8",
-                "attributes": [{ "trait_type": "Cuteness", "value": 100 }]
-            }
-        },
-        {
-            "nftAddress": "0xe0018d0EC958Af0f2948319D5eBe6145aCbEd681",
-            "collectionName": "Dogie NFT Collection",
-            "tokenId": "1",
-            "tokenSymbol": "DOG",
-            "tokenUri": {
-                "name": "shiba-inu",
-                "description": "An adorable shiba-inu pup!",
-                "image": "https://ipfs.io/ipfs/QmYx6GsYAKnNzZ9A6NvEKV9nf1VaDzJrqDR23Y8YSkebLU",
-                "attributes": [{ "trait_type": "Cuteness", "value": 100 }]
-            }
-        }
-    ]
+    "nfts": []
 }
