@@ -5,7 +5,14 @@ const { readFileSync, writeFileSync } = require("fs")
 
 const PORT = process.env.PORT || 3333
 const app = express()
-app.use(cors({ origin: "*", credentials: true, optionSuccessStatus: 200 }))
+app.use(
+    cors({
+        origin: "*",
+        credentials: true,
+        methods: ["GET", "POST", "PUT", "DELETE"],
+        optionSuccessStatus: 200,
+    })
+)
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
